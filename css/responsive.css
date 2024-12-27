@@ -1,0 +1,124 @@
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+
+ 
+
+}   
+
+
+@media screen and (max-width: 992px){
+
+    header .navbar .navbar-nav .nav-item { margin-top: 15px; }
+    header .navbar .navbar-nav .nav-item .nav-link{ padding: 0 !important; }
+
+    .SmootherArea .SmootherBox .SmootherHead{ top: 0; }
+    .SmootherArea .SmootherBox .SmootherHead h2 { font-size: 40px; line-height: 65px;}
+
+    .DirectorArea:before{ content: none; }
+
+    .DirectorArea .col-sm-7,
+    .DirectorArea .col-sm-5{flex: 0 0 100%; max-width: 100%;}
+
+    .DirectorRight{ margin: 0; background: #A61B36; padding: 20px; border-radius: 10px; }
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+
+    .container{ max-width: 95%; }
+
+    .ServicesArea .ServicesRight figure { width: 40%; left: 30%;}
+    .ServicesArea .ServicesRight figcaption { width: 50%;}
+
+    .Footer .FooterLink .Foot p{ margin: 0; }
+     .AccoladesBox{ padding: 15px; }
+
+}
+ 
+@media screen and (max-width: 768px){ 
+
+    header{ position: relative; top: auto; }
+    header .navbar{ padding: 10px 0; }
+    .StoryArea .col-sm-6 { -ms-flex: 0 0 50%; flex: 0 0 100%; max-width: 100%;}
+    .StoryArea .StoryLeft{ margin-bottom: 20px; }
+    .CounterArea .row .col{width: 33.33%; flex-basis: auto;}
+    .ServicesArea .col-sm-6{ max-width: 100%;  flex: 0 0 100% }
+    .ServicesArea .ServicesLeft .ServiceTabImages{ display: block; }
+    .ServicesArea .ServicesRight{ display: none; }
+    .ServicesArea .owl-carousel .owl-nav{ margin: 0; }
+
+    .FamilyRight{ position: relative; width: 100%; background-color: #A61B36; padding: 15px; border-radius: 10px; margin-top: 20px; }
+    .FamilyRight:after{ content: none; }
+    .FamilyRight:before{height: 250px; width: 100%; top: -150px; left: 0;}
+    .FamilyArea .FamilyRight .owl-dots{ bottom: 0; }
+    .FamilyRight .item{ display: block; } 
+    .FamilyBox{ display: block; }
+    .FamilyBox figure{ margin: auto; }
+    .FamilyBox figcaption{ width: 100%; padding: 10px; }
+
+    .Footer .FooterLink .Foot{ margin-bottom: 20px; }
+    .Footer .FooterLink .Foot p{margin: 0 0 10px 0;font-size: 14px;line-height: 26px;}
+    .Footer .Copyright p{ text-align: center; margin-bottom: 10px; }
+    .Footer .Copyright ul { text-align: center;}
+
+    .SmootherArea .SmootherBox .SmootherHead h2 { font-size: 32px; line-height: 50px;}
+
+    .ServiceArea .col-sm-4{flex: 0 0 50%; max-width: 50%;}
+    .ClientArea .col-sm-3{flex: 0 0 33.33%; max-width: 33.33%;}
+    .AccoladesArea .col-sm-4{flex: 0 0 50%; max-width: 50%;}
+
+
+
+
+} 
+
+@media screen and (max-width: 768px) and (min-width: 500px) {
+
+    .ServicesArea .ServicesLeft .ServiceTabImages figure{ width: 50%; left: 10%; top: 6%; }
+    .ServicesArea .ServicesLeft .ServiceTabImages figcaption{ width: 50%; }
+
+    .FootprintsArea .FootprintsLeft ul li .ToolTipBox .ToolTip{ left: -70px; }
+
+    .Footer .FooterLink .row .col:first-child,
+    .Footer .FooterLink .row .col:last-child{width: 100%; flex-basis: auto; max-width: 100%;}
+    .Footer .FooterLink .row .col{flex: 0 0 33.33%; max-width: 33.33%;}
+
+    .TendersBreadArea aside{ top: 30%; }
+
+
+}
+
+@media screen and (max-width: 500px){
+
+
+    .SliderArea .carousel-item .Caption {  top: 65px; left: 0;  width: 100%; padding: 0 15px;}
+    .SliderArea .carousel-item .Caption h3 {  font-size: 18px;  margin: 0 0 15px 0;}
+    .SliderArea .carousel-item .Caption a {  padding: 10px 30px;  font-size: 14px; display: inline-block;}
+    .SliderArea .Controls button img{ width: 35px; }
+    .SliderArea .carousel-indicators { bottom: 20px;}
+    
+    .CounterArea .row .col{width: 100%; flex-basis: auto;}
+    .CounterArea .CounterBox:after{ right: auto; bottom: 0; height: 1px; width: 100%; left: 0; top: auto;}
+    
+    .FootprintsArea .FootprintsLeft{ margin-bottom: 30px; }
+    .FootprintsArea .FootprintsLeft ul li .ToolTipBox .ToolTip{ left: -70px; }
+    
+    .GlimpsesArea .GlimpsesBox{ margin-bottom: 20px; }
+    
+    .Footer .FooterLink .row .col{width: 100%; flex-basis: auto;}
+    
+
+    .SmootherArea .SmootherBox .SmootherHead{ position: relative; }
+    .SmootherArea .SmootherBox .SmootherHead h2 br{ display: none; }
+    .SmootherArea .SmootherBox ul{ display: block; }
+    .SmootherArea .SmootherBox ul li{ margin:0 0 15px 0 ; }
+
+    .ServiceArea .col-sm-4{flex: 0 0 100%; max-width: 100%;}
+    .ClientArea .col-sm-3{flex: 0 0 50%; max-width: 50%;}
+    .AccoladesArea .col-sm-4{flex: 0 0 100%; max-width: 100%;}
+
+    .TendersArea .TendersHead{ display: block; margin:0 0 20px 0; }
+    .TendersArea .TendersHead .form-group{ width: 100% !important; margin: 0 0 15px 0; }
+
+    .TendersBreadArea aside{ top: 0px; padding: 20px; width: 100%; }
+    .TendersBreadArea aside h4{ font-size: 24px; line-height: 35px; } 
+}
